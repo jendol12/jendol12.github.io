@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>WhatsApp</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div id='wafield'>
+
+  <audio id="my_audio" src="https://www.tetangga-sebelah.com/whatsapp_ringtone.mp3"></audio>
+  
+  <header>
+    <a href='#profil'>
+      <img src='twibbon.png' alt='ava'/>
+    </a>
+
+    <h4>Ahmad Syarifuddin</h4>
+    <small id='menulis'>Sedang menulis...</small><small id='status'>Terakhir Dilihat <time id='dateTime'></time></small>
+  </header>
+  <br/>
+  <div class='chat c1'>
+    Selamat Datang Di <b>Mads Store</b> 🙏
+  </div>
+<div class='chat c2'>
+  <b>  Daftar Layanan</b>
+<small id='chatTime'></small>
+ </div>
+<div class='chat c2'>
+Layanan 1 = Spotify Premium Admin Family Rp.15.000/3bulan reg Indonesia Full Garansi
+</br>
+Layanan 2 = Canva pro 1tahun invite tim 20k reg indonesia 
+</br>
+Layanan 3 = Spotify invite Family 3 bulan 5k, reg indo
+</br>
+Layanan 4 = Apple music admin family Rp.15.000/3bulan  reg indonesia
+<small id='chatTime'></small>
+  </div>
+  <div class='chat c2'>
+  Silahkan Klik 'Tulis pesan' Lalu Pilih Layanan (Wajib Di pilih) Dan Masukan Data Anda Di form Yang Tersedia(opsional)  Dan Klik Kirim , Otomatis Web Akan Direct Ke WA Saya.. <small id='chatTime'></small>
+  </div>
+  <div class='field'>
+    <div id='option' class='option clear'>
+      <select id='layanan'>
+        <option value='pilihLayanan' selected hidden>Pilih Layanan →</option>
+        <option value='Layanan 1'>Layanan 1</option>
+        <option value='Layanan 2'>Layanan 2</option>
+        <option value='Layanan 3'>Layanan 3</option>
+        <option value='Layanan 4'>Layanan 4</option>
+      </select>
+    <input autocomplete='off' type='email' id='email' placeholder='E-mail..'>
+      <input autocomplete='off' type='text' id='nama' placeholder='Nama..'>
+      <input autocomplete='off' type='text' id='perusahaan' placeholder='Perusahaan (Jika ada)'>
+    </div>
+    <div id='sendmessage' class='clear'>
+      <input type='tel' name='tel' id='tel' value='+62 856-709-98-84' hidden>
+      <textarea type='textarea' name='pesan' id='pesan' placeholder='Tulis pesan...'></textarea>
+      <a class='kirimwa' href='javascript:void(0);'></a>
+
+    </div>
+  </div>
+
+</div>
+<!-- partial -->
+  <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
