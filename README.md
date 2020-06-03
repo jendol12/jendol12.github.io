@@ -1,1 +1,0 @@
-# jendol12.github.io
